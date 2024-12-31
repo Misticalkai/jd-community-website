@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "@hcaptcha/react-hcaptcha": "^1.4.4",
+    "crypto-js": "^4.1.1"
+    //rest of dependencies
+  }
+}
+
