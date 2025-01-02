@@ -1,1 +1,1 @@
-This repo of the JD community website has been archived and moved to our new frontend developer dimi, check his fork out here: [`View the up-to-date forked repo`]([https://nextjs.org/docs/app/api-reference/cli/create-next-app](https://github.com/dimitrije-k/jd-community-website)).
+This repo of the JD community website has been archived and moved to our new frontend developer dimi, check his fork out here: ([View the forked up-to-date repo from dimi](https://github.com/dimitrije-k/jd-community-website)).
