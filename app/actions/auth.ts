@@ -4,7 +4,7 @@ import { z } from 'zod'
 
 const signupSchema = z.object({
   nickname: z.string().min(3).max(50),
-  username: z.string().min(3).max(20),
+  username: z.string().min(3).max(20).toLowerCase(),
   email: z.string().email(),
   password: z.string().min(8),
 })
@@ -12,7 +12,7 @@ const signupSchema = z.object({
 export async function signupAction(formData: FormData) {
   const validatedFields = signupSchema.safeParse({
     nickname: formData.get('nickname'),
-    username: formData.get('username'),
+    username: formData.get('username').toLowerCase(),
     email: formData.get('email'),
     password: formData.get('password'),
   })
